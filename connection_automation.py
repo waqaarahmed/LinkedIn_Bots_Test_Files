@@ -18,5 +18,18 @@ sleep(5)
 username = driver.find_element(By.ID, "username")
 password = driver.find_element(By.ID, "password")
 
+# Enter your LinkedIn credentials here
+username.send_keys("your email")
+password.send_keys("your password")
+password.send_keys(Keys.RETURN)
+
+# Waiting for the page to load
+sleep(random.uniform(2, 5))
+
+
+driver.get("https://www.linkedin.com/search/results/people/?keywords=Abdullah&origin=SWITCH_SEARCH_VERTICAL&sid=wYS")
+
+
+sleep(random.uniform(2, 5))
 
 
