@@ -7,3 +7,6 @@ from selenium.common.exceptions import TimeoutException, ElementClickIntercepted
 from time import sleep
 import random
 
+#Loading Chromedriver
+driver = webdriver.Chrome()
+
