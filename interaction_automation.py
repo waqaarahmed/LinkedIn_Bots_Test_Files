@@ -18,3 +18,8 @@ sleep(5)
 username = driver.find_element(By.ID, "username")
 password = driver.find_element(By.ID, "password")
 
+# Enter your LinkedIn credentials here
+username.send_keys("your email")
+password.send_keys("your password")
+password.send_keys(Keys.RETURN)
+
