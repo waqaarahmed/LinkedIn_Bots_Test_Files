@@ -23,3 +23,5 @@ username.send_keys("your email")
 password.send_keys("your password")
 password.send_keys(Keys.RETURN)
 
+# Waiting for the page to load
+sleep(random.uniform(2, 5))
