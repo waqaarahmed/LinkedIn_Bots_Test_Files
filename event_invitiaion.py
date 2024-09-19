@@ -8,3 +8,10 @@ from selenium.common.exceptions import TimeoutException, ElementClickIntercepted
 from time import sleep
 import random
 
+#Loading Chromedriver
+driver = webdriver.Chrome()
+
+# Navigate to LinkedIn login page
+driver.get("https://www.linkedin.com/login")
+sleep(5)
+
