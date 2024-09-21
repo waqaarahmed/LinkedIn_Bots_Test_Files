@@ -8,3 +8,6 @@ from time import sleep
 import random
 
 
+#Loading Chromedriver
+driver = webdriver.Chrome()
+
